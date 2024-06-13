@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈哲骁 - 产品经理</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            background: #333;
+            color: #fff;
+            height: 400px;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0 20px 0;
+        }
+        .main-col {
+            float: left;
+            width: 70%;
+        }
+        .sidebar {
+            float: right;
+            width: 30%;
+            background: #f4f4f4;
+            padding: 20px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        .skills {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .skills h2 {
+            text-align: center;
+        }
+        .contact {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .contact h2 {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>陈哲骁</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#projects">项目经验</a></li>
+                    <li><a href="#skills">技能列表</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人网站</h1>
+            <p>我是产品经理，陈哲骁。</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h1>关于我</h1>
+            <p>主攻软件设计、计算机系统、算法数据结构。拥有丰富的理科知识面，兼容多样的工作需求，并且在计算机项目、论文与实验报告上获得 H1 级别成绩和教授的高度认可。熟练的英语听说读写能力，能够撰写规范的学术文章，进行地道的口头/书面翻译，与英语母语者流畅交流。熟练掌握 C、Python、Java 以及其他编程语言，擅长软件开发和数据分析。熟练使用 Excel、PPT、Word 等办公软件。</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h1>项目经验</h1>
+            <h2>网页农耕机器人 - 墨尔本大学真实模拟项目</h2>
+            <p>设计并实现了一个网页农耕机器人，自动读取试验田数据，管理农田活动。根据作物数据自动决定是否进行灌溉或采取其他必要措施。负责项目的初步设计和需求规划，确保产品功能符合客户需求。领导团队通过绘图设计和职责分配，确保每个阶段的顺利执行。组织并参与产品演示，展示产品功能并根据反馈进行调整。在项目完成后，进行发布演讲，向利益相关者展示项目成果。担任后端管理者及产品经理，负责维护数据库并保持客户沟通。持续与客户沟通，了解客户需求并确保产品开发与客户期望一致。成功完成项目，提升了项目管理能力、问题解决能力、沟通能力及技术硬实力。获得 H1（85+）高分，在演示阶段获得教授及客户的高度认可。</p>
+            <h2>实习经历：江苏广电总台 技术运维部</h2>
+            <p>负责人工智能自动化工作项目，使用RSS拔取网站数据，通过ChatGPT辅助评分，筛选出合适的精品AI相关文章到Notion。使用RSS技术自动拔取网站数据。利用ChatGPT对内容进行评分和筛选。筛选出的优质AI文章自动发布到Notion，每月更新。全程负责该自动化流程的开发和维护，确保系统高效运行。与团队沟通和协作，优化流程和算法。</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>技能列表</h2>
+            <p>英语（听说读写）熟练掌握<br>
+            Word, PowerPoint, Excel 熟练掌握<br>
+            C, Python, Java 熟练掌握<br>
+            ChatGPT（人工智能辅助）熟练掌握<br>
+            高等数学/现代物理 熟悉<br>
+            认知心理学 熟悉</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <p>手机: 18551655262<br>
+            邮箱: <a href="mailto:Caedmon_Izaya@outlook.com">Caedmon_Izaya@outlook.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2024 陈哲骁</p>
+    </footer>
+</body>
+</html>
